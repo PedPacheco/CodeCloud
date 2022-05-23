@@ -1,0 +1,56 @@
+.Header form {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.icon-input {
+  flex: 1;
+  background-color: #333;
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 16px;
+  height: 36px;
+}
+
+.Header input,
+.Header button {
+  border: 0;
+  border-radius: 16px;
+  color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 12px;
+  height: 36px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.Header input {
+  flex: 1;
+  padding: 8px 12px 8px 0;
+  background-color: #333;
+  outline: none;
+  font-size: 1.1rem;
+}
+
+.Header img {
+  stroke-width: "0";
+  height: 1em;
+  width: 1em;
+  filter: invert(100%)
+}
+
+.Header button {
+  background-color: #1a399e;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+  min-width: 160px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+}

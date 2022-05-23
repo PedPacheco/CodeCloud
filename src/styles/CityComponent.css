@@ -1,0 +1,74 @@
+.main {
+  margin: 36px 0;
+}
+
+.main h1 {
+  text-align: center;
+  margin: 36px 0;
+}
+
+.current-weather,
+.forecast {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  margin: 72px 0;
+}
+
+.current-weather h2, .forecast h2 {
+  font-weight: 400;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+
+.current-weather p {
+  font-size: 48px;
+}
+
+.current-weather p + p {
+  font-size: 32px;
+}
+
+.forecast ol {
+  list-style: none;
+}
+
+.forecast ol li {
+  padding: 8px 24px;
+  background-color: #0000008c;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast ol li h3 {
+  font-weight: 400;
+  min-width: 120px;
+  text-align: left;
+}
+
+.forecast ol li div {
+  display: flex;
+  min-width: 90px;
+}
+
+.temperature img {
+  stroke-width: "0";
+  height: 1.5em;
+  width: 1.5em;
+  filter: invert(100%)
+}
+
+.wind img {
+  stroke-width: "0";
+  height: 1em;
+  width: 1em;
+  margin-right: 8px;
+  filter: invert(100%)
+}
+
+.forecast ol li + li {
+  margin-top: 8px;
+}
