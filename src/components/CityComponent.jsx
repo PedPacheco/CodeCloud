@@ -4,11 +4,12 @@ import "../styles/CityComponent.css";
 import Celsius from "../images/temperature.png";
 import Wind from "../images/wind.png";
 
+//componente da cidade
 function CityComponent(props) {
   const [weatherData, setWeatherData] = useState({});
   const [actualCity, setActualCity] = useState("");
 
-  const day = new Date().getDay()
+  const day = new Date().getDay();
 
   const dayOfWeek = [
     "Domingo",
@@ -20,7 +21,7 @@ function CityComponent(props) {
     "Sábado",
     "Domingo",
     "Segunda-feira",
-    "Terça-feira"
+    "Terça-feira",
   ];
 
   useEffect(async () => {
